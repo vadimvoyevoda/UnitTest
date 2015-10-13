@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21de5ae6891d53a0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="28.09.2015 1:38:09"
+		timestampiso="2015-09-27T22:38:09"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.836"
+			timeRelativeToTestModuleStartTime="00:03.836"
+			timeWallClock="01:38:13"
+			time="00:03.836"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.&#1056;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1097;&#1080;&#1077;&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;.&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;' at 34;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Работающие приложения']/button[@accessiblename='Проводник']"
+				fullname="Ranorex_RecycleBinClearRepository.Explorer.РаботающиеПриложения.Проводник"
+				id="d04cdea838514ba1b7d3fa98329f280a"
+				timeout="90000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.820"
+			timeRelativeToTestModuleStartTime="00:13.820"
+			timeWallClock="01:38:23"
+			time="00:13.820"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item '&#1069;&#1090;&#1086;&#1090;&#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;.PageUp' at 5;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']//tree[@controlid='100']/scrollbar[@style='Vertical']/button[@text='PageUp']"
+				fullname="Ranorex_RecycleBinClearRepository.ЭтотКомпьютер.PageUp"
+				id="d402a5a389d34957a93594d8cae59c8b"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.219"
+			timeRelativeToTestModuleStartTime="00:27.219"
+			timeWallClock="01:38:36"
+			time="00:27.219"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#1069;&#1090;&#1086;&#1090;&#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 37;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[2]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Корзина']"
+				fullname="Ranorex_RecycleBinClearRepository.ЭтотКомпьютер.Корзина"
+				id="c401f2bcfcb04bc8a96cedfa6fa03734"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.765"
+			timeRelativeToTestModuleStartTime="00:29.765"
+			timeWallClock="01:38:39"
+			time="00:29.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#1069;&#1090;&#1086;&#1090;&#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;.&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100;&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091;' at 28;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Этот компьютер']/element[3]//container[@accessiblename='Нижняя лента']/?/?/container[@accessiblename='Управление']/toolbar[@accessiblename='Управление']/button[@accessiblename='Очистить корзину']"
+				fullname="Ranorex_RecycleBinClearRepository.ЭтотКомпьютер.ОчиститьКорзину"
+				id="6d2e35f84cda4f2eae86a09b20ef702a"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

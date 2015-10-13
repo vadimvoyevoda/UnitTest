@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d9eaab838eb87d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="28.09.2015 1:44:42"
+		timestampiso="2015-09-27T22:44:42"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'Ranorex_RecycleBinClearRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.018"
+			timeRelativeToTestModuleStartTime="00:02.034"
+			timeWallClock="01:44:44"
+			time="00:02.018"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.&#1056;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1097;&#1080;&#1077;&#1055;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;.&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;' at 24;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Работающие приложения']/button[@accessiblename='Проводник']"
+				fullname="Ranorex_RecycleBinClearRepository.Explorer.РаботающиеПриложения.Проводник"
+				id="d04cdea838514ba1b7d3fa98329f280a"
+				timeout="90000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.495"
+			timeRelativeToTestModuleStartTime="00:08.510"
+			timeWallClock="01:44:51"
+			time="00:08.495"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item '&#1069;&#1090;&#1086;&#1090;&#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;.PageUp' at 9;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']//tree[@controlid='100']/scrollbar[@style='Vertical']/button[@text='PageUp']"
+				fullname="Ranorex_RecycleBinClearRepository.ЭтотКомпьютер.PageUp"
+				id="d402a5a389d34957a93594d8cae59c8b"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.274"
+			timeRelativeToTestModuleStartTime="00:23.290"
+			timeWallClock="01:45:05"
+			time="00:23.274"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120150928_014358_2bbe62ab_trace.jpg"
+			errthumb=".\Recording120150928_014358_2bbe62ab_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item '&#1069;&#1090;&#1086;&#1090;&#1050;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;.PageUp' at 17;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']//tree[@controlid='100']/scrollbar[@style='Vertical']/button[@text='PageUp']"
+				fullname="Ranorex_RecycleBinClearRepository.ЭтотКомпьютер.PageUp"
+				id="d402a5a389d34957a93594d8cae59c8b"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.899"
+			timeRelativeToTestModuleStartTime="00:27.915"
+			timeWallClock="01:45:10"
+			time="00:27.899"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120150928_014358_a124f8f5_trace.jpg"
+			errthumb=".\Recording120150928_014358_a124f8f5_trace_thumb.jpg">
+			<message>
+				Mouse Left Up item '&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;' at 5;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Корзина']"
+				fullname="Ranorex_RecycleBinClearRepository.Корзина.Корзина"
+				id="1e56cb29066049d99a81f0a8dbaff004"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:29.259"
+			timeRelativeToTestModuleStartTime="01:29.275"
+			timeWallClock="01:46:11"
+			time="01:29.259"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120150928_014358_1c5e7ec0_trace.jpg"
+			errthumb=".\Recording120150928_014358_1c5e7ec0_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Ranorex_RecycleBinClearRepository.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;.&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;'.<br/>No element found for path '/form[@title='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в Ranorex_RecycleBinClear.Ranorex_RecycleBinClearRepositoryFolders.КорзинаAppFolder.get_Корзина() в c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Ranorex_RecycleBinClearRepository.cs:строка 582
+   в Ranorex_RecycleBinClear.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs:строка 96
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_RecycleBinClear\Ranorex_RecycleBinClear\Recording1.cs"
+				codeline="96"
+				type="repoitem"
+				path="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='Корзина']"
+				fullname="Ranorex_RecycleBinClearRepository.Корзина.Корзина"
+				id="1e56cb29066049d99a81f0a8dbaff004"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

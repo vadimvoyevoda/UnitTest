@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# Ranorex Studio 5
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex_RecycleBinClear", "Ranorex_RecycleBinClear\Ranorex_RecycleBinClear.csproj", "{35A5DCA2-DDB5-4E54-BA97-2C4D8D205D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A5DCA2-DDB5-4E54-BA97-2C4D8D205D20}.Debug|x86.Build.0 = Debug|x86
+		{35A5DCA2-DDB5-4E54-BA97-2C4D8D205D20}.Debug|x86.ActiveCfg = Debug|x86
+		{35A5DCA2-DDB5-4E54-BA97-2C4D8D205D20}.Release|x86.Build.0 = Release|x86
+		{35A5DCA2-DDB5-4E54-BA97-2C4D8D205D20}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

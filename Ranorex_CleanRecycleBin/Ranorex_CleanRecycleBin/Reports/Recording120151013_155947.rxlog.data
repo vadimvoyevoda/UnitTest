@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a9088dc3224e5c2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="13.10.2015 16:00:34"
+		timestampiso="2015-10-13T13:00:34"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.462"
+			timeRelativeToTestModuleStartTime="00:03.478"
+			timeWallClock="16:00:38"
+			time="00:03.462"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_155947_2fd6b965_trace.jpg"
+			errthumb=".\Recording120151013_155947_2fd6b965_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'Explorer.List1' at 389;378.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer.List1"
+				id="f842be4188824864ad04662cce962a1e"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.777"
+			timeRelativeToTestModuleStartTime="00:12.793"
+			timeWallClock="16:00:47"
+			time="00:12.777"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_155947_19e91cd6_trace.jpg"
+			errthumb=".\Recording120151013_155947_19e91cd6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 56;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.ТекстовыйДокумент"
+				id="6daecef7132747f88b2b592f979d9ef4"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.962"
+			timeRelativeToTestModuleStartTime="01:13.977"
+			timeWallClock="16:01:48"
+			time="01:13.962"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120151013_155947_892a730d_trace.jpg"
+			errthumb=".\Recording120151013_155947_892a730d_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;'.<br/>No element found for path '/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в Ranorex_CleanRecycleBin.Ranorex_CleanRecycleBinRepositoryFolders.Explorer1AppFolder.get_ТекстовыйДокумент() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBinRepository.cs:строка 278
+   в Ranorex_CleanRecycleBin.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs:строка 87
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.ТекстовыйДокумент"
+				id="6daecef7132747f88b2b592f979d9ef4"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

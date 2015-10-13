@@ -1,0 +1,16 @@
+﻿<testsuite
+name="Ranorex_CleanRecycleBin"
+rxversion="5.4.2.25689"
+id="4de38c51-facd-4413-80eb-f745fdfc69c6">
+  <content>
+    <testcase name="TestCase" id="cf2012bf-758e-4b3a-ba2b-7210d8f1d9ed">
+      <testmodule name="Recording1" id="fd977d28-526a-4356-86c4-f9e3d0c01850" ref="1cd8a4ae-5001-419a-9a3f-ef66b7c8e04a" type="Recording"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="cf2012bf-758e-4b3a-ba2b-7210d8f1d9ed"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references/>
+</testsuite>

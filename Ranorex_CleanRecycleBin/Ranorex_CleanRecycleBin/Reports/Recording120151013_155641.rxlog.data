@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3202e66a0c0c2b3"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="13.10.2015 15:57:12"
+		timestampiso="2015-10-13T12:57:12"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.906"
+			timeRelativeToTestModuleStartTime="00:02.906"
+			timeWallClock="15:57:15"
+			time="00:02.906"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_155641_0d24b239_trace.jpg"
+			errthumb=".\Recording120151013_155641_0d24b239_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'Explorer.List1' at 389;378.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer.List1"
+				id="f842be4188824864ad04662cce962a1e"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.711"
+			timeRelativeToTestModuleStartTime="00:08.711"
+			timeWallClock="15:57:21"
+			time="00:08.711"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_155641_de29451e_trace.jpg"
+			errthumb=".\Recording120151013_155641_de29451e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 56;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Текстовый документ']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.ТекстовыйДокумент"
+				id="6daecef7132747f88b2b592f979d9ef4"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.033"
+			timeRelativeToTestModuleStartTime="00:47.033"
+			timeWallClock="15:57:59"
+			time="00:47.033"
+			level="Error"
+			category="User"
+			errimg=".\Recording120151013_155641_4ef4d47b_trace.jpg"
+			errthumb=".\Recording120151013_155641_4ef4d47b_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

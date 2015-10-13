@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8771c13ce3d6ca7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="13.10.2015 15:38:15"
+		timestampiso="2015-10-13T12:38:15"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer2.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.376"
+			timeRelativeToTestModuleStartTime="00:02.376"
+			timeWallClock="15:38:17"
+			time="00:02.376"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_153656_fbf2b77b_trace.jpg"
+			errthumb=".\Recording120151013_153656_fbf2b77b_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'Explorer1.List1' at 247;165.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.List1"
+				id="249539dbdf8b493cb638a2a13f8ea279"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.887"
+			timeRelativeToTestModuleStartTime="00:10.887"
+			timeWallClock="15:38:26"
+			time="00:10.887"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_153656_7e131a5c_trace.jpg"
+			errthumb=".\Recording120151013_153656_7e131a5c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer2.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;' at 162;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Создать']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer2.Создать"
+				id="27554f3f0e8a41c08c60541bc0ae5190"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.834"
+			timeRelativeToTestModuleStartTime="01:11.834"
+			timeWallClock="15:39:27"
+			time="01:11.834"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120151013_153656_cb576ed5_trace.jpg"
+			errthumb=".\Recording120151013_153656_cb576ed5_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer2.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;'.<br/>No element found for path '/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в Ranorex_CleanRecycleBin.Ranorex_CleanRecycleBinRepositoryFolders.Explorer2AppFolder.get_Создать() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBinRepository.cs:строка 442
+   в Ranorex_CleanRecycleBin.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs:строка 87
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Создать']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer2.Создать"
+				id="27554f3f0e8a41c08c60541bc0ae5190"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

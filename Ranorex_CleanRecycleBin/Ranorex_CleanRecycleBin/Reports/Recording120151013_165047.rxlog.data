@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b2ef3c14fb4b5db"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Вадим"
+		host="3VPC"
+		rxversion="5.4.2.25689"
+		osversion="Windows 8.1 32bit"
+		runtimeversion="4.0.30319.34014"
+		procarch="32bit"
+		language="ru-RU"
+		screenresolution="1024x600"
+		timestamp="13.10.2015 16:51:19"
+		timestampiso="2015-10-13T13:51:19"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer2.&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.363"
+			timeRelativeToTestModuleStartTime="00:02.363"
+			timeWallClock="16:51:21"
+			time="00:02.363"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List1' at 213;151.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer.List1"
+				id="36ff657f04fd4efb9e9c720f6dd38508"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.083"
+			timeRelativeToTestModuleStartTime="00:11.083"
+			timeWallClock="16:51:30"
+			time="00:11.083"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;' at 92;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Создать']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.Создать"
+				id="8416ba9ee58d4a5ba4925f53a7ab7f94"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.403"
+			timeRelativeToTestModuleStartTime="00:12.403"
+			timeWallClock="16:51:31"
+			time="00:12.403"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' at 69;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Текстовый документ']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.ТекстовыйДокумент"
+				id="ef940e04c7d44504aef39920d96ecacc"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.952"
+			timeRelativeToTestModuleStartTime="00:42.952"
+			timeWallClock="16:52:02"
+			time="00:42.952"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Ranorex_CleanRecycleBinRepository.Explorer1.&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081;&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Ranorex_CleanRecycleBinRepository.Explorer1'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="91"
+				loglvl="Warn"
+				id="ef940e04c7d44504aef39920d96ecacc"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Текстовый документ']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.ТекстовыйДокумент"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.671"
+			timeRelativeToTestModuleStartTime="00:43.671"
+			timeWallClock="16:52:03"
+			time="00:43.671"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}&#1053;{LShiftKey up}&#1086;&#1074;&#1080;&#1081;{Return}{Return}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.624"
+			timeRelativeToTestModuleStartTime="00:44.624"
+			timeWallClock="16:52:03"
+			time="00:44.624"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="98"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.765"
+			timeRelativeToTestModuleStartTime="00:44.765"
+			timeWallClock="16:52:04"
+			time="00:44.765"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '&#1044;{LShiftKey up}&#1077;&#1103;&#1082;&#1080;&#1081;{Space}&#1090;&#1077;&#1082;&#1089;&#1090;{Space}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.320"
+			timeRelativeToTestModuleStartTime="00:46.320"
+			timeWallClock="16:52:05"
+			time="00:46.320"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '&#1103;&#1082;&#1080;&#1081;{Space}&#1085;&#1077;{Space}&#1084;&#1072;&#1108;{Space}&#1085;&#1110;&#1103;&#1082;&#1086;&#1075;&#1086;{Space}&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1103;'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="106"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.532"
+			timeRelativeToTestModuleStartTime="00:49.532"
+			timeWallClock="16:52:08"
+			time="00:49.532"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#1053;&#1086;&#1074;&#1080;&#1081;Txt&#1041;&#1083;&#1086;&#1082;&#1085;&#1086;&#1090;.&#1060;&#1072;&#1081;&#1083;' at 15;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Новий.txt — Блокнот']/?/?/menuitem[@accessiblename='Файл']"
+				fullname="Ranorex_CleanRecycleBinRepository.НовийTxtБлокнот.Файл"
+				id="73cc03aa824e4b5eb78785e05ce3cecc"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.070"
+			timeRelativeToTestModuleStartTime="00:51.070"
+			timeWallClock="16:52:10"
+			time="00:51.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Notepad.&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;CTRLPlusS' at 60;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='СохранитьCTRL+S']"
+				fullname="Ranorex_CleanRecycleBinRepository.Notepad.СохранитьCTRLPlusS"
+				id="2e067b435635459d8bd49c5c75272452"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.238"
+			timeRelativeToTestModuleStartTime="00:52.238"
+			timeWallClock="16:52:11"
+			time="00:52.238"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#1053;&#1086;&#1074;&#1080;&#1081;Txt&#1041;&#1083;&#1086;&#1082;&#1085;&#1086;&#1090;.&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;' at 28;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Новий.txt — Блокнот']/?/?/button[@accessiblename='Закрыть']"
+				fullname="Ranorex_CleanRecycleBinRepository.НовийTxtБлокнот.Закрыть"
+				id="d9b102b4f555420cb099ef67d2e01154"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.113"
+			timeRelativeToTestModuleStartTime="00:53.113"
+			timeWallClock="16:52:12"
+			time="00:53.113"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.&#1053;&#1086;&#1074;&#1080;&#1081;Txt' at 28;55.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Новий.txt']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer.НовийTxt"
+				id="c788c1b49cea4e58a64c8b23e7c71e96"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.894"
+			timeRelativeToTestModuleStartTime="00:53.894"
+			timeWallClock="16:52:13"
+			time="00:53.894"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_165047_fc480bda_trace.jpg"
+			errthumb=".\Recording120151013_165047_fc480bda_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer1.&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;' at 79;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Удалить']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer1.Удалить"
+				id="310a56a729ec4ceea74814cad6b3177e"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.517"
+			timeRelativeToTestModuleStartTime="00:55.517"
+			timeWallClock="16:52:14"
+			time="00:55.517"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120151013_165047_fd7f3d31_trace.jpg"
+			errthumb=".\Recording120151013_165047_fd7f3d31_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer2.&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;' at 25;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Работающие приложения']/button[@accessiblename='Проводник']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer2.Проводник"
+				id="54fca69fcb964c8585f01c3befbeb47c"
+				timeout="60000"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:56.449"
+			timeRelativeToTestModuleStartTime="01:56.449"
+			timeWallClock="16:53:15"
+			time="01:56.449"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120151013_165047_28b312e6_trace.jpg"
+			errthumb=".\Recording120151013_165047_28b312e6_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Ranorex_CleanRecycleBinRepository.Explorer2.&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;'.<br/>No element found for path '/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='&#1056;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1097;&#1080;&#1077; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;']/button[@accessiblename='&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   в Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   в Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   в Ranorex_CleanRecycleBin.Ranorex_CleanRecycleBinRepositoryFolders.Explorer2AppFolder.get_Проводник() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBinRepository.cs:строка 433
+   в Ranorex_CleanRecycleBin.Recording1.Ranorex.Core.Testing.ITestModule.Run() в c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs:строка 131
+   в Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Вадим\Desktop\Ranorex_CleanRecycleBin\Ranorex_CleanRecycleBin\Recording1.cs"
+				codeline="131"
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Работающие приложения']/button[@accessiblename='Проводник']"
+				fullname="Ranorex_CleanRecycleBinRepository.Explorer2.Проводник"
+				id="54fca69fcb964c8585f01c3befbeb47c"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="12"/>
+		</item>
+	</activity>
+</report>

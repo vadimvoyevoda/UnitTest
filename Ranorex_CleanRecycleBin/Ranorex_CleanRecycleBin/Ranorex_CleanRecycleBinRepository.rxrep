@@ -1,0 +1,482 @@
+﻿<repository
+name="Ranorex_CleanRecycleBinRepository"
+id="b7729271-fb35-460f-8b13-be3ad29eed4c"
+rxversion="5.4.2.25689">
+	<codegen
+	classname="Ranorex_CleanRecycleBinRepository"
+	namespace="Ranorex_CleanRecycleBin"/>
+	<rootfolder
+	name="Root"
+	id="2b79d514-8317-4cc2-a66c-93df705c5984"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="526ae01d-4477-4737-ad5b-f6d96dea5abe"
+		searchtimeout="30000ms"
+		capname="desktop"
+		refpath="/desktop[@processname='explorer']"
+		addcaps="desktop,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="List1"
+			id="36ff657f-04fd-4efb-9e9c-720f6dd38508"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
+			addcaps="list,nativewindow"
+			refimgid="65ce001c-e399-435f-9e2f-64778f3845d0">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']
+			</item>
+			<item
+			name="НовийTxt"
+			id="c788c1b4-9cea-4e58-a64c-8b23e7c71e96"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/desktop[@processname='explorer']/container/list/listitem[@text='Новий.txt']"
+			addcaps="listitem,nativeitem,checkable"
+			refimgid="29daedbc-df37-4754-b4c6-566b0e5af31e">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='&#1053;&#1086;&#1074;&#1080;&#1081;.txt']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer1"
+		id="2e90217d-3553-4f88-af4a-276266b97352"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='explorer']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Создать"
+			id="8416ba9e-e58d-4a5b-a492-5f53a7ab7f94"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Создать']"
+			addcaps="menuitem,accessible"
+			refimgid="c551e316-26f4-42c1-8ce6-531bf9a1b01b">
+				/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;']
+			</item>
+			<item
+			name="ТекстовыйДокумент"
+			id="ef940e04-c7d4-4504-aef3-9920d96ecacc"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer' and @class='#32768' and @instance='1']/contextmenu/menuitem[@accessiblename='Текстовый документ']"
+			addcaps="menuitem,accessible"
+			refimgid="0e0005b8-5a3b-4ee1-bcc1-862307b02d05">
+				/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='&#1058;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1081; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;']
+			</item>
+			<item
+			name="Удалить"
+			id="310a56a7-29ec-4cee-a748-14cad6b3177e"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Удалить']"
+			addcaps="menuitem,accessible"
+			refimgid="4ba389bc-1ff5-48e5-90a5-8f80dd1b6f9b">
+				/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;']
+			</item>
+			<item
+			name="ОчиститьКорзину"
+			id="beac096b-b2f8-451e-9018-f09580aa9a4b"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='explorer']/contextmenu/menuitem[@accessiblename='Очистить корзину']"
+			addcaps="menuitem,accessible"
+			refimgid="399612fd-437e-4cb7-9e1c-56ba74ab4bfe">
+				/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='&#1054;&#1095;&#1080;&#1089;&#1090;&#1080;&#1090;&#1100; &#1082;&#1086;&#1088;&#1079;&#1080;&#1085;&#1091;']
+			</item>
+			<basepath>
+				/contextmenu[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer2"
+		id="58cc51fc-d01b-472a-bbe6-809e1e4ef5c4"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Проводник"
+			id="54fca69f-cb96-4c85-85f0-1c3befbeb47c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Проводник']"
+			addcaps="button,accessible"
+			refimgid="0950b8dd-11d2-4572-9af0-acc0ff634c4e">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='&#1056;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1097;&#1080;&#1077; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;']/button[@accessiblename='&#1055;&#1088;&#1086;&#1074;&#1086;&#1076;&#1085;&#1080;&#1082;']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ЭтотКомпьютер"
+		id="3650ac97-3dc4-4e69-a6a0-45e63832d0fa"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Этот компьютер']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Корзина"
+			id="786ac6ab-cc27-4ff5-927e-bacb9f52cdc2"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Избранное']/treeitem[@text='Корзина']"
+			addcaps="treeitem"
+			refimgid="f8bedbf2-5045-417c-b31e-8eb9eb3b1830">
+				/form[@title='&#1069;&#1090;&#1086;&#1090; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[2]/?/?/tree[@controlid='100']/?/?/treeitem[@text='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+			</item>
+			<item
+			name="Корзина1"
+			id="44eda5d0-aecc-4a6e-bbb2-a6e5c887cd6e"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='Избранное']/treeitem[@text='Корзина']"
+			addcaps="treeitem"
+			refimgid="e5f94890-0584-4d2e-a462-6f4e0057e6c5">
+				/form[@title='&#1069;&#1090;&#1086;&#1090; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[1]/?/?/tree[@controlid='100']/?/?/treeitem[@text='&#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;']
+			</item>
+			<item
+			name="PropertyValue"
+			id="5b1e5c21-225a-4023-a0d6-ec8c0ad6efa1"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Корзина']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/container[@automationid='FolderLayoutContainer']/statusbar[@automationid='StatusBarModuleInner']/container[@automationid='System.StatusBarViewItemCount']/text[@automationid='PropertyValue']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="f46c3895-e148-402c-a122-4e4801314f98">
+				/form[@title='&#1069;&#1090;&#1086;&#1090; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;']//container[@automationid='FolderLayoutContainer']/statusbar[@automationid='StatusBarModuleInner']/container[@automationid='System.StatusBarViewItemCount']/text[@automationid='PropertyValue']
+			</item>
+			<item
+			name="Tree100"
+			id="c8ebb7fc-cc3b-4727-b08c-0d8a84509c17"
+			searchtimeout="30000ms"
+			capname="tree"
+			refpath="/form[@title='Этот компьютер']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']"
+			addcaps="tree,nativewindow"
+			refimgid="e8d4adbd-4991-4f9a-adb0-e0e6c543c9c7">
+				/form[@title='&#1069;&#1090;&#1086;&#1090; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[2]/?/?/tree[@controlid='100']
+			</item>
+			<basepath>
+				/form[@title='&#1069;&#1090;&#1086;&#1090; &#1082;&#1086;&#1084;&#1087;&#1100;&#1102;&#1090;&#1077;&#1088;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJwSURBVDhPrVJJTFNRFH0xLA2KJKAhXbAwalxo
+YiTGYaExaGLCyhAWLjQuCG40aILGuKkGFRZiKFZTtHPz6f9ggULtkH5oCp3/UIrYUtSwdsWmy+N7
+r784rDnJyf3Du+fdc+8lewpNUR6vFXU0WCxqKOoaNE2BqhY4FSWPQiGHfD6LUCg0YaTWwZIcDscu
+XS4XPB4PZmamEQgEMD8/h8XFBYTDX5DPZfizkVpHQ4CQaZD9SZADFZDWHbz2bmLQ+gP33/1E//g2
+es3byFEBJmik1rEr0CyAHAqDdGog7duQgmvwTK9DmC9hJlyExfMVuWwas7MBkGg0aonH44jFYkvM
+Myu786SAplYR5EgC5PA6nr2p4tWHTZjfVzH6qYJH9D2bTXFrZGpqqnb5SjeGhp7Qpulwu924cFVC
+c4eTWqAH2uLoHdjA4Itv6H9axYPn33Hr4RYXEEV6iTsyXuveITAnbkPXVVBBnLnkhem4HeSgm/Zg
+DqevqegbKOHG3Qpu3tvC+b4NpNMr8Hq9IJIk1XRdB41cQJJEdBy1wXRiEvtabCAtApqPreBcj4pT
+10s421NF28UcUqkkr5bQMrgAK4fNm/siwyBNozS+pKSx5SO1QpvaHqGUQUyfeQVOJ7X5t0BjWVTl
+34XJZFKUq5wskZFVwCfWsMAEksnE8PLyEmSZTSXKF4Yti9/vhyAI8Pl8fLHYpFiy3W6f4FOQZbne
+kP9QLpe7IpEwRkZGYLVaf1F2Gb/+IBgMrlksFthstoLxiUNVVXMmk8bqahJMRBT9/FbKO8aROsbG
+3vIdYNH4xMEsMC4sBDE5aeN0OOx133sHQn4DwAMZV+6w204AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="УдалитьФайл"
+		id="91145e47-209f-4748-be80-98f910d1986d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Удалить файл']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonДа"
+			id="107aef92-2c2f-46f5-95cb-5cc84f1e1d7d"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Удалить файл']/button[@text='Д&amp;а']"
+			addcaps="button,nativewindow"
+			refimgid="69e7e723-fff8-4b15-8429-66e9c94288bb">
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']/button[@text='&#1044;&amp;&#1072;']
+			</item>
+			<basepath>
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1092;&#1072;&#1081;&#1083;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ+SURBVDhPxZPdS1NxGMfP39KFd3XVheFFhAjd
+CEEmFQuszJe0kHLZnYpRISrDpGXTQkozlXw5pnObzrM21HRn7pjmjnPqjh7d3It7OzZBv/38uQxC
+r3vgwwO/53w/zznwO8z/Lxd3u8ptuw/xWwEWTLf+QcUfzlOPnlySQ40VezVU22lQWdNwcLAPRVGO
+mTPcPBUqX5+tgGs8H3Mj5PAEvM5axINmxAJGRP1fEZY7EfS2ILD2hkqoIJlwIxl3YXfHTuBpV8JT
+pBuR2P6IuK8N0a13iMg6RDaaEZE0CHme0wWMxKuxpzhJoAdKqBsJAu2BDhqMbbbS0I7UhPCqBgFP
+HYLuGmzNV0D4I0jGJ6AEU8FgF+L+DrLxPdl4GHxFgg0ILr+E31UD30IlZEENr70Egv4GGO9MOZIx
+K93cOCVQKm1uPOFElBkF3GO/I6/PClU3h/yOHkqf6Rk8tjw4h66DWZkqwy8i6F4UEUruUXYB+Ajz
++8BwGGiXj9B5D1DPbyJDO4pRfSlmB3PBeCYeIh7m0OxYOhZY5SjaxRBe//CjenIDaouX8oiTKIcC
+41DJkcBte4BIYAwvyGsL2wlw61E0TEvIajUjU0d4a0ZWixm57BKuDKxR0rUcDINF4NlrYERLMXZ8
+LMpNP/FZDEPD+3GpeQyDFg1Ycy36yff2GqqQ3TmLy188SP+0hPNN4xhhCzAzkAPGNV5IL0Z2p4Cn
+nIyi4WUqYLl6rPNlWJsuxsrkXWR+cJwiINfRqc/DhVYHys0SJUNrQlvXY8z05xCuUs5p7cjXr1LO
+1HHo7ymEvFCP1B/BMKVDy7iom6BUGDx/B6kqGhBxttFCudO7mJozzG/+lo4EFnYJzAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="НовийTxtБлокнот"
+		id="4258d0bd-e4f8-4c45-ae2d-522448c14f2d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Новий.txt — Блокнот']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Файл"
+			id="73cc03aa-824e-4b5e-b787-85e05ce3cecc"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@title='Новий.txt — Блокнот']/menubar[@accessiblename='Приложение']/menuitem[@accessiblename='Файл']"
+			addcaps="menuitem,accessible"
+			refimgid="fb3bc0ac-d5c4-4646-81d1-0b79c7bb5dd1">
+				/form[@title='&#1053;&#1086;&#1074;&#1080;&#1081;.txt &#8212; &#1041;&#1083;&#1086;&#1082;&#1085;&#1086;&#1090;']/?/?/menuitem[@accessiblename='&#1060;&#1072;&#1081;&#1083;']
+			</item>
+			<item
+			name="Закрыть"
+			id="d9b102b4-f555-420c-b099-ef67d2e01154"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Новий.txt — Блокнот']/titlebar/button[@accessiblename='Закрыть']"
+			addcaps="button,accessible"
+			refimgid="e3a167ae-6a7b-40ae-9d20-e75e9e9e9fab">
+				/form[@title='&#1053;&#1086;&#1074;&#1080;&#1081;.txt &#8212; &#1041;&#1083;&#1086;&#1082;&#1085;&#1086;&#1090;']/?/?/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@title='&#1053;&#1086;&#1074;&#1080;&#1081;.txt &#8212; &#1041;&#1083;&#1086;&#1082;&#1085;&#1086;&#1090;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKPSURBVDhPjZHLTxNRFMbZm7j2/zG6cEPUxD07
+486QaCIhYHhoqZSXpRFsAVseQaUBQkHBSqGl005n2k470+l0Xi2lD2irjWv5vDMotdEFJzk5NzO5
+3/f7zu34X/VNzeAq85+a5dT07XsPQJ3UcKvzPvx61ZzruRNzevi8OV9RPEaDCbgtnf2/r3Z0ULXa
+dVssW5YbP5CpNZGofkOkVEfg+Aw7WgVeIrIo5OHkVAwGWFgP45gY7GqRuHn9piOeE6V6E/xpE2y5
+gaNiDf58FVtKCR+lY7gFHTMJBf1faDhjmXYBR1weWhT0A0o9xqFSgF/S4RNUeFM5LMdFzDECpqmU
+6fx4bRcrDN8uYItJe+ty0cudfgdTaSBM8PcLVWxrZYJfxFKG4Kc0TDA5dG8eIFGptwuMREVtV624
+AnIBe9kL9zXivhLPYp7JEPc0xkIcBvYZPFzaglattQSsicQ1a1TMbyonc9FyHaHimZndpxJ36cLd
+lVJhjysYDqfx1BfEz/PzlsAonb3zmpXZVbEw/0nUsMEr+MBJWCLZXTEjO3EPJjF0wOKZL4Seja9o
+NJstgRFaHHFyyrYnrS0Eiqf4rFewKZfwnmzeQzb/ltMwxeZgoUX0+RnYwykYdSkwHBEO3eSyM6m8
+86ZlrCYluNkMZmM87GTzo4Y7efuevRi6vX4sUMl2gkFK0FycOm1nZY9PLWGN5F7OFDCX1uFIyBhj
+JLyIiOgNGvlDoAnlJUFfJH3jZVSUyJIcM5y6+Ce7sfk3UR6TRxyshGCYEPT6aTxa9iFbqrYInh8J
+dwkBLFHRdJogWcfJW4+Ts83oWBaT5JvRNjqLJzth092oywh/V07VTfWr9H8Fxge6NowfV2m3pbP/
+F0Wgr4voafeUAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Notepad"
+		id="cf1240df-1978-451b-9baa-a4f7d37608cc"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='notepad']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="СохранитьCTRLPlusS"
+			id="2e067b43-5635-459d-8bd4-9c5c75272452"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='notepad']/contextmenu/menuitem[@accessiblename='СохранитьCTRL+S']"
+			addcaps="menuitem,accessible"
+			refimgid="7c082c1f-29a7-47d6-8d72-bdd24254b845">
+				/contextmenu[@processname='notepad']/?/?/menuitem[@accessiblename='&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;CTRL+S']
+			</item>
+			<basepath>
+				/contextmenu[@processname='notepad']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

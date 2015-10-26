@@ -53,15 +53,10 @@ namespace AuthorizeTest
             _helper.FacebookAuthorize(CredentialClass.Login, CredentialClass.Pass);
 
             IWebElement res = null;
-            try
-            {
-                res = _driver.FindElement(By.XPath("//*[@id=\"blueBarNAXAnchor\"]/div[1]/div/div/div[2]/ul/li[1]/a/span"));
-            }
+            res = _driver.FindElement(By.XPath("//*[@id=\"blueBarNAXAnchor\"]/div[1]/div/div/div[2]/ul/li[1]/a/span"));
+            
             //Assert
-            finally
-            {
-                Assert.AreNotEqual(null, res);  
-            }          
+            Assert.AreNotEqual(null, res);                        
         }
     }
 }
